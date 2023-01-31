@@ -17,4 +17,20 @@ if (age < 18){
     console.log("il tuo biglietto con lo sconto costerà euro:", discountedTicketOld)
 }
 
+// data biglietto
+
 console.log("TrenItalia ti augura un buon viaggio!")
+
+const dataBiglietto = document.getElementById("data")
+
+let data = prompt("Che giorno vuoi partire?");
+
+dataBiglietto.innerHTML = data
+
+// orario biglietto
+
+const oraBiglietto = document.getElementById("data")
+
+let ora = prompt("Che giorno vuoi partire?");
+
+oraBiglietto.innerHTML = ora
