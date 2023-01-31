@@ -51,3 +51,11 @@ main{
 .justify-between{
     justify-content: space-between;
 }
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.bold{
+    font-weight: 700;
+}

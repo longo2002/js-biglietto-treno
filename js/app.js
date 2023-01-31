@@ -29,8 +29,59 @@ dataBiglietto.innerHTML = data
 
 // orario biglietto
 
-const oraBiglietto = document.getElementById("data")
+const oraBiglietto = document.getElementById("ora")
 
-let ora = prompt("Che giorno vuoi partire?");
+let ora = prompt("A che ora vuoi partire?");
 
 oraBiglietto.innerHTML = ora
+
+// nome biglietto
+
+const nomeBiglietto = document.getElementById("nome")
+
+let nome = prompt("Come ti chiami?");
+
+nomeBiglietto.innerHTML = nome
+
+
+// cognome biglietto
+
+const cognomeBiglietto = document.getElementById("cognome")
+
+let cognome = prompt("E il tuo cognome?");
+
+cognomeBiglietto.innerHTML = cognome
+
+// età biglietto
+
+const etaBiglietto = document.getElementById("eta")
+
+etaBiglietto.innerHTML = age
+
+// distanza biglietto
+
+const distanzaBiglietto = document.getElementById("distanza")
+
+distanzaBiglietto.innerHTML = distance
+
+// sconto biglietto
+
+const scontoBiglietto = document.getElementById("sconto")
+
+if (age < 18 ) or (age > 65) {
+    scontoBiglietto.innerHTML = true
+} else {
+    scontoBiglietto.innerHTML = false
+}
+
+// prezzo biglietto
+
+const prezzoBiglietto = document.getElementById("prezzo")
+
+if (age < 18 ) {
+    prezzoBiglietto.innerHTML = discountedTicketYoung
+} else if (age > 65){
+    prezzoBiglietto.innerHTML = discountedTicketOld
+} else {
+    prezzoBiglietto.innerHTML = trainPrice
+}
